@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Text Effects</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Poppins, Arial, sans-serif;
+}
+
+body{
+  background:#1b1b1b;
+  color:#fff;
+  padding:40px;
+}
+
+.container{
+  display:flex;
+  gap:40px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,260px);
+  gap:20px;
+}
+
+.card{
+  height:180px;
+  border-radius:10px;
+  padding:20px;
+  text-align:center;
+  box-shadow:inset 0 0 60px rgba(0,0,0,.45);
+}
+
+.card h2{
+  font-size:36px;
+  letter-spacing:2px;
+  margin-top:40px;
+  text-shadow:
+    0 2px 0 rgba(0,0,0,.35),
+    0 6px 10px rgba(0,0,0,.6);
+}
+
+.card p{
+  margin-top:10px;
+  font-style:italic;
+  opacity:.85;
+}
+
+/* COLORS */
+.orange{background:linear-gradient(135deg,#6a1fb2,#3a0c63);}
+.orange h2{color:#ff9c2a;}
+
+.sakura{background:linear-gradient(135deg,#3d2a40,#241627);}
+.sakura h2{color:#ff7da8;}
+
+.azula{background:linear-gradient(135deg,#204a20,#0e2d0e);}
+.azula h2{color:#9dd9ff;}
+
+.clean{background:linear-gradient(135deg,#5a3b2a,#3a2317);}
+.clean h2{color:#f2efe6;}
+
+.yellow{background:linear-gradient(135deg,#8a1c10,#5a0f08);}
+.yellow h2{color:#ffd84d;}
+
+.apple{background:linear-gradient(135deg,#1f2f6e,#121b44);}
+.apple h2{color:#7dff4d;}
+
+/* RIGHT SIDE */
+.side h1{
+  font-size:72px;
+  line-height:.9;
+  color:#ffb347;
+  text-shadow:0 6px 0 #c96a00;
+}
+
+.side span{
+  color:#ff8c00;
+}
+
+.side ul{
+  list-style:none;
+  margin-top:30px;
+}
+
+.side ul li{
+  margin-bottom:10px;
+  opacity:.8;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="grid">
+
+    <div class="card orange">
+      <h2>ORANGE</h2>
+      <p>Color Text Effect</p>
+    </div>
+
+    <div class="card sakura">
+      <h2>SAKURA</h2>
+      <p>Color Text Effect</p>
+    </div>
+
+    <div class="card azula">
+      <h2>AZULA</h2>
+      <p>Color Text Effect</p>
+    </div>
+
+    <div class="card clean">
+      <h2>CLEAN</h2>
+      <p>Color Text Effect</p>
+    </div>
+
+    <div class="card yellow">
+      <h2>YELLOW</h2>
+      <p>Color Text Effect</p>
+    </div>
+
+    <div class="card apple">
+      <h2>APPLE</h2>
+      <p>Color Text Effect</p>
+    </div>
+
+  </div>
+
+  <div class="side">
+    <h1>TEXT<br>EFF<span>ECTS</span></h1>
+    <ul>
+      <li>6 PSD Mockups</li>
+      <li>3000×2000 px</li>
+      <li>300 DPI</li>
+      <li>Smart Object replacement</li>
+      <li>Very Easy to Edit</li>
+      <li>Well Organized Layers</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
